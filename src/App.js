@@ -25,11 +25,11 @@ function App() {
       <main>
         <div className="body">
         <Routes>
-          <Route index element={<Home />} />
-          <Route path="buttons" element={<ButtonPage />} />
+          <Route path="/dev-challenges/" element={<Home />} />
+          <Route path="/dev-challenges/buttons" element={<ButtonPage />} />
 
           {/* 404 */}
-          <Route path="*" element={<NotFound />} />
+          <Route path="/dev-challenges/*" element={<NotFound />} />
         </Routes>
         </div>
 

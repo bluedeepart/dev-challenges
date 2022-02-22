@@ -3,38 +3,38 @@ import { Link, NavLink, Outlet } from "react-router-dom";
 function Sidebar() {
   return (
     <nav className="sidebar">
-      <Link to="/" className="site-logo">
+      <Link to="/dev-challenges/" className="site-logo">
         <span className="theme-text-red">Dev</span>challenges.io
       </Link>
 
       <ul className="nav-list">
         <li className="nav-item">
-          <NavLink className="nav-link" to={`/colors`}>
+          <NavLink className="nav-link" to={`/dev-challenges/colors`}>
             Colors
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to={`/typography`}>
+          <NavLink className="nav-link" to={`/dev-challenges/typography`}>
             Typography
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to={`/spaces`}>
+          <NavLink className="nav-link" to={`/dev-challenges/spaces`}>
             Spaces
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to={`/buttons`}>
+          <NavLink className="nav-link" to={`/dev-challenges/buttons`}>
             Buttons
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to={`/inputs`}>
+          <NavLink className="nav-link" to={`/dev-challenges/inputs`}>
             Inputs
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to={`/grid`}>
+          <NavLink className="nav-link" to={`/dev-challenges/grid`}>
             Grid
           </NavLink>
         </li>
