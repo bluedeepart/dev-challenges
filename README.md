@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://bluedeepart.github.io/dev-challenges/buttons">
+    <a href="https://bluedeepart.github.io/dev-challenges">
       Demo
     </a>
     <span> | </span>
