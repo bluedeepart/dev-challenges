@@ -183,7 +183,8 @@ footer code{
 
 @media only screen and (min-width: 768px) {
   .coming-soon{
-    font-size: 100px;
+    font-size: 80px;
+    line-height: 1;
   }
 
   #menu{

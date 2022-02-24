@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import ButtonPage from "./pages/ButtonPage";
 import Button from "./components/Button";
 import { MdMenu } from "react-icons/md";
+import InputPage from "./pages/InputPage";
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Routes>
           <Route path="/dev-challenges/" element={<Home />} />
           <Route path="/dev-challenges/buttons" element={<ButtonPage />} />
+          <Route path="/dev-challenges/inputs" element={<InputPage />} />
 
           {/* 404 */}
           <Route path="/dev-challenges/*" element={<NotFound />} />

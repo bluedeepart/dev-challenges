@@ -8,7 +8,7 @@ function Sidebar() {
       </Link>
 
       <ul className="nav-list">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <NavLink className="nav-link" to={`/dev-challenges/colors`}>
             Colors
           </NavLink>
@@ -22,7 +22,7 @@ function Sidebar() {
           <NavLink className="nav-link" to={`/dev-challenges/spaces`}>
             Spaces
           </NavLink>
-        </li>
+        </li> */}
         <li className="nav-item">
           <NavLink className="nav-link" to={`/dev-challenges/buttons`}>
             Buttons
@@ -33,11 +33,11 @@ function Sidebar() {
             Inputs
           </NavLink>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <NavLink className="nav-link" to={`/dev-challenges/grid`}>
             Grid
           </NavLink>
-        </li>
+        </li> */}
       </ul>
       <Outlet />
     </nav>
