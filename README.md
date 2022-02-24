@@ -35,7 +35,11 @@
 
 ## Overview
 
+<<<<<<< HEAD
 ![screenshot](src/assets/images/dev-challenges-home.png)
+=======
+![screenshot](src/assets/images/button-compoenets.png)
+>>>>>>> 521dd99218fb763b6279042f8cb97a43046652dd
 
 <!-- Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
