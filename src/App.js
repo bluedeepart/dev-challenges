@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <HashRouter>
       <Sidebar />
       <Button variant='text' id="menu" onClick={menuOpen}><MdMenu style={{width: '24px', height: '34px'}} /></Button>
       <main>
@@ -37,7 +37,7 @@ function App() {
 
         <Footer />
       </main>
-    </Router>
+    </HashRouter>
   );
 }
 
