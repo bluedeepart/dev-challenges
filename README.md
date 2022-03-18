@@ -1,4 +1,4 @@
-<h1 align="center">Button component</h1>
+<h1 align="center">Button and Input component</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -15,7 +15,10 @@
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
-      Challenge
+      Button Challenge
+    </a>
+     <a href="https://devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp">
+     Input Challenge
     </a>
   </h3>
 </div>
@@ -35,7 +38,6 @@
 
 ## Overview
 
-<<<<<<< HEAD
 ![screenshot](src/assets/images/dev-challenges-home.png)
 =======
 ![screenshot](src/assets/images/button-compoenets.png)
